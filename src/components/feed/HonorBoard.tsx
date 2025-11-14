@@ -168,7 +168,7 @@ export const HonorBoard = () => {
           <Avatar className="w-6 h-6 border-2 border-yellow-400/50">
             <AvatarImage src={user.avatar_url} />
             <AvatarFallback className="text-xs bg-yellow-500 text-black">
-              {user.username?.[0]?.toUpperCase()}
+              {user.username?.[0]?.toUpperCase() || 'U'}
             </AvatarFallback>
           </Avatar>
           <span className="text-yellow-200 text-sm font-medium">{user.username}</span>
@@ -207,7 +207,7 @@ export const HonorBoard = () => {
               <Avatar className="w-12 h-12 border-3 border-yellow-400">
                 <AvatarImage src={topPosts[0].avatar_url} />
                 <AvatarFallback className="bg-yellow-500 text-black font-bold">
-                  {topPosts[0].username?.[0]?.toUpperCase()}
+                  {topPosts[0].username?.[0]?.toUpperCase() || 'U'}
                 </AvatarFallback>
               </Avatar>
             </div>
