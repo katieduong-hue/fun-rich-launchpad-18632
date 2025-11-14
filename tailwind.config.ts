@@ -57,20 +57,6 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        fun: {
-          green: "hsl(165 100% 42%)",
-          yellow: "hsl(45 100% 60%)",
-        },
-      },
-      backgroundImage: {
-        'gradient-fun': 'var(--gradient-fun)',
-        'gradient-rich': 'var(--gradient-rich)',
-      },
-      boxShadow: {
-        'fun': 'var(--shadow-fun)',
-      },
-      transitionTimingFunction: {
-        'smooth': 'var(--transition-smooth)',
       },
       borderRadius: {
         lg: "var(--radius)",
